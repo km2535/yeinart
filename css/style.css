@@ -536,10 +536,17 @@ header .hd_box {
   /* 헤더부분 수정 끝*/
   /* 본문 시작 */
   #container .sidemenu_1 {
-    width: 30%;
+    width: 34%;
   }
+  #container .sidemenu_1 .sidemenu_1_1_2 p {
+    text-shadow: 4px 4px 4px #444;
+  }
+  #container .sidemenu_1 .sidemenu_1_2 .sidemenu_1_2_2 p {
+    text-shadow: 4px 4px 4px #444;
+  }
+
   #container .slide_menu {
-    width: 70%;
+    width: 66%;
   }
   #container .sidemenu_2 {
     width: 100%;
@@ -551,6 +558,7 @@ header .hd_box {
     display: none;
   }
 
+  #container .sidemenu_3,
   #container .mini_gallery,
   #container .info,
   #container .coperation {
