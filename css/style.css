@@ -308,7 +308,7 @@ header .hd_box {
   width: 60%;
 }
 #container .slide_menu div {
-  background: url("../images/bg3.jpeg") no-repeat;
+  background: url(../images/bg3.jpeg) no-repeat;
   background-size: cover;
   text-indent: -9999px;
   height: 402px;
@@ -380,46 +380,52 @@ header .hd_box {
   display: flex;
   width: 50%;
   height: 100%;
-  background: url(/images/bg1.jpeg) no-repeat center;
+  background: url(../images/bg1.jpeg) no-repeat center;
   border: 2px solid #fff;
   background-size: cover;
 }
 #container .mini_gallery div:last-child {
-  background: url(/images/bg4.jpeg) no-repeat center;
+  background: url(../images/bg4.jpeg) no-repeat center;
   background-size: cover;
 }
 
 #container .info {
   display: block;
-  height: 150px;
-  width: 20%;
+  height: 300px;
+  width: 19.7%;
 }
 #container .info div {
   width: 100%;
   height: 100%;
-  background: url(/images/history3.jpg) no-repeat center;
+  background: url(../images/ban_transport.jpg) no-repeat center;
   border: 2px solid #fff;
   background-size: cover;
+  transition: all 0.5s;
 }
-#container .info div:last-child {
-  background: url(/images/history2.jpg) no-repeat center;
+#container .info div:hover {
+  width: 100%;
+  height: 100%;
+  background: url(../images/ban_transport2.jpg) no-repeat center;
+  border: 2px solid #fff;
   background-size: cover;
+  transition: all 0.5s;
 }
 
 #container .coperation {
   width: 20%;
 }
 
-#container .coperation div .coperation_list li:first-child {
+#container .coperation div .coperation_list li:first-child a {
   display: block;
-  background: url(/images/logo.gif) no-repeat center;
+  margin-left: 2px;
+  background: url(../images/logo.gif) no-repeat center;
   height: 152px;
   border-bottom: 4px solid #b2ae96;
 }
-#container .coperation div .coperation_list li:last-child {
+#container .coperation div .coperation_list li:last-child a {
   display: block;
   height: 152px;
-  background: url(/images/net2.gif) no-repeat center;
+  background: url(../images/net2.gif) no-repeat center;
 }
 /* 본문 끝 */
 /* 푸터부분 */
